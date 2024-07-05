@@ -1,0 +1,65 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+
+.service-heading{
+  font-size: 50px;
+  font-family: Arial Rounded MT Bold;
+  text-align: center;
+
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  
+}
+
+
+.card{
+  height: 450px;
+  width: 300px;
+  background:linear-gradient(45deg, #D3CCE3,#e9e4f0);
+  border-radius: 40px;
+margin: 30px 50px;
+transition: 1.5s;
+  
+}
+
+
+.card:hover{
+  transform: scale(1.1);
+}
+
+.icon{
+  height: 250px;
+  width: 280px;
+  display: block;
+  margin: auto;
+  background:black;
+  border-radius: 50%;
+}
+
+.para {
+  color: black;
+  text-align: center;
+  font-family:Arial Rounded MT Bold ;
+}
+
+
+.btn{
+  padding: 10px 20px;
+  background: black;
+  color: white;
+  font-size: 20px;
+  
+  border-radius: 30px;
+  display:block;
+  margin: auto;
+  margin-top: 15px;
+  font-weight: bold;
+}

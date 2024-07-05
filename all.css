@@ -1,0 +1,71 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  Bookman Old Style
+}
+
+
+body{
+  background: #000;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+ 
+  color:white;
+  margin: 0px 7%;
+  margin-top: 30px;
+
+}
+
+.heading{
+  font-family:Bookman Old Style ;
+  font-size: 50px;
+  transition: 1.5s;
+  cursor: pointer;
+
+}
+ .add{
+  font-family: Algerian;
+  color: red;
+  font-size: 60px;
+}
+.heading:hover{
+  transform: scale(1.5);
+
+
+}
+
+
+.link ul{
+  display: flex;
+}
+.link ul li{
+  list-style: none;
+}
+.link ul li a{
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  
+}
+
+.link , .head{
+  margin: 0px 10px;
+  padding: 15px 25px;
+  border-radius: 30px;
+  transition: 1s;
+}
+
+
+ .head:hover{
+  background: red;
+
+}
+
+
+.extra{
+  font-size: 60px;
+  color: white;
+}

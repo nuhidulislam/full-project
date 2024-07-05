@@ -1,0 +1,54 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.experience-section, .img{
+  height: 100vh;
+}
+.experience-section{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.experience{
+  width: 60%;
+  margin-right: 40px;
+  text-align: justify;
+  line-height: 30px;
+}
+
+
+.ex{
+  font-size: 50px;
+  font-family: Bahnschrift SemiBold;
+  color: red;
+  margin-bottom: 20px;
+}
+.company{
+  font-size:30px;
+  font-family: Agency FB;
+  color: crimson;
+}
+
+.para{
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.ic{
+  height: 100px;
+  width: 100px;
+  display: flex;
+  cursor: pointer;
+  
+}
+.icon{
+  transition: 1s;
+}
+
+.icon:hover{
+  transform: translateY(-30px);
+}
